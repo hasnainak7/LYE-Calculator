@@ -10,7 +10,7 @@ body {
 
 /* 🌈 Gradient Text */
 .rainbow-text {
-  background: linear-gradient(90deg, #ff006e, #ffbe0b, #3a86ff, #8338ec, #06d6a0);
+  background: linear-gradient(90deg, #ff006e, #ffbe0b, #3a86ff, #8338ec, #03ce17);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -18,7 +18,7 @@ body {
 
 /* 🌈 Card Containers */
 .card {
-  background: #fff;
+  background: #c05151;
   border-radius: 16px;
   padding: 20px;
   margin-top: 20px;

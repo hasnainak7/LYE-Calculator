@@ -528,7 +528,7 @@ export default function App() {
             <input
               value={totalOil.toFixed(2)}
               readOnly
-              style={{ width: "100%", background: "#f4f4f4" }}
+              
             />
           </div>
         </div>
