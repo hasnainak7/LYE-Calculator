@@ -1,5 +1,5 @@
 {
-   "Acai Oil": { 
+   "Acai Oil,Organic": { 
     "Oleic Acid": "40–60%", 
     "Palmitic Acid": "17–28%", 
     "Linoleic Acid": "10–22%", 
@@ -8,7 +8,7 @@
     "Vaccenic Acid": "3-4.5%"
   }, 
  
-  "Almond Oil": { 
+  "Almond Oil, Sweet": { 
     "Oleic Acid": "60–80%", 
     "Linoleic Acid": "10–30%", 
     "Palmitic Acid": "5–10%", 
@@ -50,7 +50,21 @@
         "Palmitic Acid": "11–15%", 
         "Stearic Acid": "4–7%" 
     }, 
-    "Avocado Oil": { 
+    "Avacado Oil": { 
+        "Oleic Acid": "55–75%", 
+       "Palmitic Acid": "12–20%", 
+        "Linoleic Acid": "9–17%", 
+        "Stearic Acid": "1–3%" ,
+        "Palmitoleic Acid": "2-10%"
+    }, 
+    "Avacado Oil, Virgin": { 
+        "Oleic Acid": "55–75%", 
+       "Palmitic Acid": "12–20%", 
+        "Linoleic Acid": "9–17%", 
+        "Stearic Acid": "1–3%" ,
+        "Palmitoleic Acid": "2-10%"
+    }, 
+    "Avacado Oil, Organic": { 
         "Oleic Acid": "55–75%", 
        "Palmitic Acid": "12–20%", 
         "Linoleic Acid": "9–17%", 
@@ -111,5 +125,617 @@
         "Stearic Acid": "1.5-6%", 
         "Linolenic Acid"   : "0.5-1.5%", 
         "Valeric Acid"  : "0.6-1%"     
+    },
+      "Calabash Oil": { 
+        "Oleic Acid": "59.4%", 
+        "Linoleic Acid": "19.3%", 
+        "Linolenic Acid":"1.6%",
+        "Palmitic Acid": "19.7%", 
+        "Stearic Acid": "19.7%" 
+    }, 
+    "Camellia Seed Oil": { 
+     "Linoleic Acid": "5.3-14.3%", 
+        "Oleic Acid": "72-87%", 
+      "Palmitic Acid": "6.1–15%", 
+       "Stearic Acid": "0.8-2%" 
+    }, 
+   "Canola Oil": { 
+        "Oleic Acid": "50-65%", 
+        "Linoleic Acid": "19-21%", 
+        "Palmitic Acid": "3.90%", 
+        "Linolenic Acid": "9-11%" 
+    }, 
+     "Castor Oil": { 
+        "Ricinoleic Acid": "87–90%", 
+        "Oleic Acid": "2-7%", 
+        "Linoleic Acid": "3-5%", 
+        "Palmitic Acid": "1–2%", 
+        "Steric Acid": "1%"},
+        
+        
+    " Cherry Kernel Oil": { 
+        "Oleic Acid": "30-45%", 
+        "Linoleic Acid": "40-50%", 
+        "Palmitic Acid": "6–10%", 
+        "Stearic Acid": "1–4%" 
+    }, 
+    "Chia Seed Oil": { 
+        "Linoleic Acid": "18-20%", 
+        "Alpha-Linolenic Acid": "60%", 
+        "Oleic Acid": "6-8%", 
+        "Palmitic Acid": "7-8%" 
+    }, 
+"Cocoa Butter": { 
+    "Oleic Acid": "30-40%", 
+    "Palmitic Acid": "24-29%", 
+    "Stearic Acid": "34-36%", 
+    "Linoleic Acid": "~2.5%" 
+} ,
+ 
+    "Coconut Oil": { 
+        "Lauric Acid": "44-52%", 
+        "Myristic Acid": "13-19%", 
+        "Palmitic Acid": "8-11%", 
+        "Oleic Acid": "5-8%", 
+        "Stearic Acid": "1-3%", 
+       "Capric Acid": "6-10%", 
+       "Caprylic Acid":"5-9%" 
+    }, 
+
+    "Corn Oil": { 
+        "Linoleic Acid": "50–60%", 
+        "Oleic Acid": "20–30%", 
+        "Palmitic Acid": "8-16%" 
+    }, 
+
+    "Cottonseed Oil": { 
+        "Linoleic Acid": "2.12%", 
+        "Oleic Acid": "75%", 
+        "Palmitic Acid": "14-15%", 
+        "Stearic Acid": "1–6%", 
+        "Myristic Acid": "1.5%" 
+    }, 
+
+   "Cucumber Seed Oil": { 
+        "Linoleic Acid": "50%", 
+        "Oleic Acid": "5–30%", 
+        "Palmitic Acid": "5-14%", 
+        "Stearic Acid": "3-15%" 
+    }, 
+ 
+    "Cupuacu Butter": { 
+        "Oleic Acid": "40-45%", 
+        "Stearic Acid": "28-35%", 
+        "Palmitic Acid": "7-12%", 
+        "Linoleic Acid": "3-7%", 
+        "Behenic Acid": "1-2%" 
+    }, 
+ 
+    "Deer Tallow": { 
+        "Oleic Acid": "~11%", 
+        "Palmitic Acid": "~35.5%", 
+        "Stearic Acid": "~20.9%", 
+        "Linoleic Acid": "5–10%", 
+        "Linolenic Acid": "5-10%" 
+    }, 
+ 
+    "Evening Primrose Oil": { 
+        "Linoleic Acid": "60-85%", 
+        "Gamma-Linolenic Acid": "7-12%", 
+        "Oleic Acid": "5–12%", 
+        "Palmitic Acid": "4-10%" ,
+        "Stearic Acid": "2-4%" ,
+        "Alpha-Linolenic Acid": "~1%"
+    }, 
+ 
+    "Flax Seed Oil": { 
+        "Linolenic Acid": "35–60%", 
+        "Linoleic Acid": "17–24%", 
+        "Oleic Acid": "12-34%", 
+        "Palmitic Acid": "4-7%" ,
+        "Stearic Acid": "2-5%" ,
+        "Arachidic Acid": "0.3-1%"
+ 
+    }, 
+ 
+    "Fractionated Coconut Oil": { 
+        "Capric Acid": "20-50%", 
+        "Caprylic Acid": "50-80%"
+         
+    }, 
+ 
+   "Goat Tallow": { 
+        "Oleic Acid": "28-50%", 
+        "Palmitic Acid": "15-31%", 
+        "Stearic Acid": "6-17%", 
+        "Linoleic Acid": "4-15%" 
+ 
+    }, 
+ 
+    "Grape Seed Oil": { 
+        "Linoleic Acid": "46–74%", 
+        "Oleic Acid": "14-44%", 
+        "Palmitic Acid": "7–9.5%", 
+        "Stearic Acid": "3.5-5.5%" 
+    }, 
+ 
+    "Hazelnut Oil": { 
+        "Oleic Acid": "75-83%", 
+        "Linoleic Acid": "9-16%", 
+        "Palmitic Acid": "4-7%", 
+        "Stearic Acid": "1.6-3%" 
+    }, 
+ 
+    "Hemp-Seed Oil": { 
+        "Linoleic Acid": "24-26%", 
+        "Alpha-Linolenic Acid": "54-56%", 
+        "Oleic Acid": "11-13%", 
+        "Palmitic Acid": "5-7%", 
+       "Stearic Acid": "1–3%" 
+ 
+    }, 
+ 
+   "Hibiscus Sabdariffa Oil": { 
+        "Oleic Acid": "34.6-39.8%",  "Linoleic Acid": "31.1-37.45%", 
+        "Palmitic Acid": "17.4-22.6%", 
+        "Stearic Acid": "3.9-5.2%" 
+    }, 
+“Hisbicus Cannabinus Oil”: { 
+“  "Oleic Acid": "28.91%",  "Linoleic Acid": "39.49%", 
+ "Palmitic Acid": "20.75%”, 
+“Vernolic Acid”: “~4.16%”, 
+}, 
+ 
+  "High Linoleic Safflower Oil": { 
+        "Linoleic Acid": "71-75%", 
+        "Oleic Acid": "16–20%", 
+        "Palmitic Acid": "6-8%", 
+        "Stearic Acid": "2–3%" 
+    }, 
+“Illipe Butter”: { 
+“Oleic Acid": “32-38%”, 
+"Palmitic Acid": “15-20%”, 
+  "Linoleic Acid": “<1.2%, 
+ "Stearic Acid": “40-48%”, 
+}, 
+ 
+   "Jojoba Oil": { 
+  "Eicosenoic Acid": "65-80%", 
+  "Docosenic Acid": "10-20%", 
+        "Oleic Acid": "5-15%", 
+        "Palmitic Acid": "<1%" 
+“Steric Acid”: “0.5%”, 
+“Behenic Acid”: “~0.2%” 
+    }, 
+ 
+ *   "Kalahari Melon Seed Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Linoleic Acid": "30–40%", 
+        "Palmitic Acid": "10–15%", 
+        "Stearic Acid": "5–10%" 
+    }, 
+ 
+    "Karanja Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "10–15%", 
+        "Stearic Acid": "5–10%" 
+    }, 
+“Kombo Butter”: { 
+“Myristic Acid”: “55-73%”, 
+“Myristoleic Acid”: “10-15%, 
+ "Oleic Acid": “5-13%, 
+"Palmitic Acid": “3-7%”, 
+“Palmitoleic Acid”: “<3%”, 
+"Stearic Acid": “<3%”, 
+"Linoleic Acid": “<2%”, 
+}, 
+“Kpangnan Butter”: { 
+“Oleic Acid": “42-54%”, 
+"Stearic Acid": “38-56%”, 
+ "Palmitic Acid": “2-10%”, 
+ "Linoleic Acid": “0-8%”, 
+}, 
+*    "Kukui Nut Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "10–15%", 
+        "Stearic Acid": "5–10%" 
+    }, 
+   
+ 
+*    "Lard": { 
+        "Oleic Acid": "40–50%", 
+        "Palmitic Acid": "20–30%", 
+        "Stearic Acid": "10–20%", 
+        "Linoleic Acid": "5–10%" 
+    }, 
+ 
+*    "Laurel Berry Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Palmitic Acid": "20–30%", 
+        "Stearic Acid": "10–20%", 
+        "Linoleic Acid": "5–10%" 
+    }, 
+ 
+  *  "Laurel Wax": { 
+        "Palmitic Acid": "20–30%", 
+        "Stearic Acid": "20–30%", 
+        "Oleic Acid": "10–20%", 
+        "Others": "trace" 
+    }, 
+ 
+*    "MCT Oil": { 
+        "Caprylic Acid": "50–70%", 
+        "Capric Acid": "30–50%", 
+        "Lauric Acid": "trace", 
+        "Others": "trace" 
+    }, 
+ 
+    "Macadamia Nut Oil": { 
+        "Oleic Acid": "54–68%", 
+        "Palmitoleic Acid": "16-23%", 
+        "Palmic Acid": "7-10%", 
+        "Stearic Acid": "2-5.5%" 
+    }, 
+“Mafura Butter”: { 
+  "Oleic Acid": "45-55%", 
+        "Palmitic Acid": "30-40%", 
+        "Stearic Acid": "2-4%", 
+        "Linoleic Acid": "8-13%" 
+ “Alpha-Linolenic Acid”: “1-2%”, 
+    }, 
+ 
+  *  "Mafura Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Palmitic Acid": "20–30%", 
+        "Stearic Acid": "10–20%", 
+        "Linoleic Acid": "5–10%" 
+    }, 
+ 
+   "Mango Butter": { 
+        "Oleic Acid": "40-50%", 
+        "Stearic Acid": "40-50%", 
+        "Palmitic Acid": "5-8%", 
+        "Linoleic Acid": "5–10%" 
+“Arachidic Acid”: “1-4%”, 
+    }, 
+ 
+  *  "Manketti Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "10–15%", 
+        "Stearic Acid": "5–10%" 
+    }, 
+ 
+*    "Maracuja Oil": { 
+        "Oleic Acid": "30–40%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "10–15%", 
+        "Stearic Acid": "5–10%" 
+    }, 
+    "Marula Oil": { 
+        "Oleic Acid": "70-78%", 
+        "Palmitic Acid": "9-12%", 
+        "Stearic Acid": "5-8%", 
+        "Linoleic Acid": "4-7%" 
+“ Alpha-Linolenic Acid”: “0.1-0.7% 
+“Arachidonic Acid”: “<1% 
+    }, 
+ 
+    "Meadowfoam Seed Oil": { 
+        "Eicosenoic Acid": "52-77%", 
+        "Docosenoic Acid": "7-20%", 
+        "Erucic Acid": "8-29%", 
+         
+    }, 
+ 
+ *   "Monoi de Tahiti Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Palmitic Acid": "20–30%", 
+        "Stearic Acid": "10–20%", 
+        "Linoleic Acid": "5–10%" 
+    }, 
+    "Moringa Oil": { 
+        "Oleic Acid": "65-80%", 
+        "Palmitoleic Acid": "1.5-3%", 
+        "Stearic Acid": "3-8%", 
+        "Linoleic Acid": "1.5-5%", 
+“Myristoleic Acid”: “5-9.3%”, 
+“Arachidic Acid”: “2-5%”, 
+“Eicosenoic Acid”: “2.5-4%”, 
+“Behenic Acid”: “8-8.6%”, 
+“Linolenic Acid”: “1-1.5%, 
+“Erucic Acid”: “~3% 
+    }, 
+ 
+    "Murumuru Butter": { 
+        "Oleic Acid": "5-10%", 
+        "Stearic Acid": "2-5%", 
+        "Palmitic Acid": "5-10%", 
+        "Linoleic Acid": "1-5%", 
+     “Lauric Acid”: “40-50%”, 
+“Myristic Acid”: 28-33%”, 
+“Capric Acid”: “<2%”, 
+“Caprylic Acid”: “<1%”, 
+    }, 
+ 
+   "Mustard Oil": { 
+        "Oleic Acid": "12-28%", 
+“Erucic Acid”: “ 20-40%, 
+        "Linoleic Acid": "15-32%", 
+  "Alpha-Linoleic Acid": "6-9%", 
+        "Stearic Acid": "5–12%" 
+    },   
+ 
+    "Neem Oil": { 
+        "Oleic Acid": "44%", 
+        "Linoleic Acid": "18%", 
+        "Palmitic Acid": "16%", 
+        "Stearic Acid": "21%" 
+      “Arachidic Acid”: “1%” 
+    },  
+ 
+    "Olive Oil": { 
+        "Oleic Acid": "65–80%", 
+      "Linoleic Acid": "4-10.07%", 
+        "Palmitic Acid": "7-16%", 
+        "Stearic Acid": "1–3%" 
+   “Myristic Acid”: “0.1-1.2% 
+    }, 
+ 
+     "Palm Kernel Oil": { 
+        "Lauric Acid": "48%", 
+        "Myristic Acid": "16%", 
+        "Oleic Acid": "15%", 
+    }, 
+ 
+    "Palm Oil": { 
+        "Oleic Acid": "39-40%", 
+        "Palmitic Acid": "44-45%", 
+        "Linoleic Acid": "10-11%, 
+    }, 
+ 
+    "Passionfruit Seed Oil": { 
+   "Linoleic Acid": "67.8-74.3%", 
+      "Oleic Acid": "13.6-16.9%", 
+      "Palmitic Acid": "8.8-11%", 
+        "Stearic Acid": "2.2-3.1%" 
+“Alpha-Linoleic”: “0.3-0.4%, 
+    }, 
+   "Peach Kernel Oil": { 
+        "Oleic Acid": "54-75%", 
+        "Linoleic Acid": "15-35%", 
+        "Palmitic Acid": "2-8%", 
+        "Stearic Acid": "1%" 
+“Alpha-Linoleic”: “1% 
+    }, 
+ 
+    "Peanut Oil": { 
+        "Oleic Acid": "40–67%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "10–16%", 
+    }, 
+ 
+   "Pequi Oil": { 
+        "Oleic Acid": "54-60%", 
+        "Palmitic Acid": "34-45%", 
+        "Stearic Acid": "1.5-3%", 
+        "Linoleic Acid": "1-3%", 
+“Palmitoleic Acid”: “0.4-1%, 
+“Alpha-Linoleic Acid”: “0.3-1%” 
+    }, 
+ 
+    "Perilla Seed Oil": { 
+        "Alpha-Linolenic Acid": "54-64%", 
+        "Linoleic Acid": "14-20%", 
+        "Oleic Acid": "13-18%", 
+        "Palmitic Acid": "1–9%" 
+    }, 
+ 
+    "Pomegranate Seed Oil": { 
+       "Punilic Acid": "60-86%%", 
+        "Oleic Acid": "3-20%", 
+        "Linoleic Acid": "3-15%", 
+      "Palmitic Acid": "1-5%", 
+   "Stearic Acid": “ 1.6-2.6%”, 
+“Alpha-Linoleic Acid”: “<5%”, 
+    }, 
+ 
+    "Poppy Seed Oil": { 
+        "Linoleic Acid": "60–75%", 
+        "Oleic Acid": "10–30%", 
+        "Palmitic Acid": "5–11%", 
+        "Stearic Acid": "<3%" 
+“Alpha-Linolenic Acid <2% 
+    }, 
+ 
+    "Pumpkin Seed Oil": { 
+        "Oleic Acid": "11.3%", 
+        "Linoleic Acid": "64.2%", 
+      "Palmitic Acid": "14.6%", 
+        "Stearic Acid": "9.9%" 
+    }, 
+ 
+“Pracaxi Oil”: { 
+ "Oleic Acid": “40-50%”, 
+“Behenic Acid”: “18-21%”, 
+“Lignoceric Acid”: “13-16%”, 
+ "Palmitic Acid": “1.5-3%”, 
+“Linolenic Acid”: “2-4%”, 
+“Linoleic Acid”: “1.8-3%, 
+  "Stearic Acid": “1.5-3%” 
+ 
+ 
+   * "Rapeseed Oil": { 
+        "Oleic Acid": "50–60%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "5–10%", 
+        "Stearic Acid": "1–3%" 
+    }, 
+ 
+ 
+   "Red Raspberry Seed Oil": { 
+        "Linoleic Acid": "45-55%", "Alpha-Linolenic Acid": "28-36%", 
+        "Oleic Acid": "8-14%", 
+        "Palmitic Acid": "2-5%" 
+       "Stearic Acid": "1–3%", 
+    }, 
+ 
+    "Rice Bran Oil": { 
+        "Oleic Acid": "40–50%", 
+        "Linoleic Acid": "29-42%", 
+        "Palmitic Acid": "12-18%", 
+        "Stearic Acid": “1-3%", 
+  “Linolenic Acid”: “ 0.5-1%, 
+“Myristic Acid”: “0.4-1%”, 
+    }, 
+ 
+    "Rosehip Oil": { 
+        "Oleic Acid": "14-16%", 
+        "Linoleic Acid": "43-46%", 
+    //   "Palmitic Acid": "3.4-4.4%", 
+        "Stearic Acid": "1.5-2.5%" 
+“ Alpha-Linolenic Acid”: “31-34%” 
+    }, 
+ 
+    "Sacha Inchi Oil": { 
+        "Linoleic Acid": "50–60%", 
+        "Alpha-Linolenic Acid": "20–30%", 
+        "Oleic Acid": "10–20%", 
+        "Palmitic Acid": "5–10%" 
+    }, 
+ 
+    "Safflower Oil": { 
+        "Linoleic Acid": "35-50%", 
+        "Oleic Acid": "35-50%", 
+        "Palmitic Acid": "7-12%", 
+        "Stearic Acid": "3.5-6%" 
+    }, 
+ 
+    "Sea Buckthorn Berry Total CO2 Extract": { 
+        "Oleic Acid": "20-30%", 
+        "Linoleic Acid": "33-42%", 
+        "Palmitic Acid": "25-30%", 
+  "Palmitoleic  Acid": "30-65%", 
+“Alpha-Linoleic Acid”: “30-36” 
+    }, 
+ 
+    "Sesame Oil": { 
+        "Oleic Acid": "40-42%", 
+  "Linoleic Acid": "30–37-47%", 
+      "Palmitic Acid": "9-11%", 
+        "Stearic Acid": "5–10%" 
+    }, 
+ 
+    "Shea Butter": { 
+       "Oleic Acid": "37.1-62.1%", 
+    "Stearic Acid": "25.6-50.2%", 
+        "Palmitic Acid": "2.6-9%", 
+      "Linoleic Acid": "0.6-10.8%" 
+“Alpha-Linolenic Acid “0-3.5%”, 
+“Myristic Acid”: “0.5% 
+“Arachidic Acid”: “0-3.5%”, 
+    }, 
+ 
+    "Shea Oil": { 
+        "Oleic Acid": "53-78%", 
+        "Stearic Acid": "5-9%", 
+        "Palmitic Acid": "3-7%", 
+        "Linoleic Acid": "8-18%", 
+“Alpha-Linoleic Acid”: “<0.5%” 
+    }, 
+ 
+    "Soybean Oil": { 
+        "Linoleic Acid": "48-61%", 
+        "Oleic Acid": "7.7-16%", 
+       "Palmitic Acid": "9.8-14%", 
+        "Stearic Acid": "2.3-4%", 
+“Alpha-Linoleic”: “12-25%”, 
+    }, 
+ 
+    "Strawberry Seed Oil": { 
+        "Linoleic Acid": "44-55%", 
+        "Alpha-Linolenic Acid": "28-38%", 
+        "Oleic Acid": "8-16%", 
+        "Palmitic Acid": "2-6%", 
+     "Stearic Acid": “1-2.5%”, 
+    }, 
+ 
+    "Sunflower Oil": { 
+        "Linoleic Acid": "44-75%", 
+        "Oleic Acid": "14-35%", 
+        "Palmitic Acid": "3-6%", 
+        "Stearic Acid": "1–3%" 
+“Arachidic Acid“: “0.6-4% 
+    }, 
+ 
+    "Sweet Almond Oil": { 
+        "Oleic Acid": "62-86%", 
+        "Linoleic Acid": "20–30%", 
+        "Palmitic Acid": "4-9%", 
+        "Stearic Acid": "2-3%" 
+    }, 
+ 
+    "Tamanu Seed Oil": { 
+        "Oleic Acid": "40%", 
+        "Linoleic Acid": "28%", 
+        "Palmitic Acid": "15%", 
+        "Stearic Acid": "17%" 
+    }, 
+ 
+    "Tomato Seed Oil": { 
+        "Linoleic Acid": "50–60%", 
+        "Oleic Acid": "16-27%", 
+        "Palmitic Acid": 12-15%", 
+        "Stearic Acid": "3-6%", 
+“Alpha-Linolenic Acid”: “0.5-4%”, 
+    }, 
+“Tumuca Butter”: { 
+“Lauric Acid”: “44-55%”, 
+“Myristic Acid”: “22-30%”, 
+ "Oleic Acid": “8-10%”, 
+ "Palmitic Acid": “5-10%”, 
+"Linoleic Acid": “2-5%”, 
+"Stearic Acid": “1-3%”, 
+“Capric Acid”: “1-3%” 
+“Caprylic Acid“: “0.5-1.5%”, 
+}, 
+ 
+    "Uccuba Butter": { 
+        "Lauric Acid": "16-20%", 
+        "Myristic Acid": "72-76%", 
+       "Palmitic Acid": "7-9%",        
+    },   
+ 
+    "Walnut Oil": { 
+        "Linoleic Acid": "50–65%", 
+"Alpha-Linolenic Acid": "7-17%", 
+        "Oleic Acid": "13-34%", 
+        "Palmitic Acid": "9–10%" 
+“Steric Acid”: “5-8%”, 
+    }, 
+ 
+    "Watermelon Seed Oil": { 
+        "Linoleic Acid": "55-70%", 
+        "Oleic Acid": "15–30%", 
+        "Palmitic Acid": "10-15%", 
+        "Stearic Acid": "1–5%" 
+    }, 
+ 
+    "Wheatgerm Oil": { 
+        "Linoleic Acid": "56%", 
+“Linolenic Acid“: “8% 
+        "Oleic Acid": "13%", 
+        "Palmitic Acid": "16%", 
+        "Stearic Acid": "0.8%" 
+    }, 
+ 
+    "Yangu Cape Chestnut Oil": { 
+        "Oleic Acid": "33-48%", 
+        "Linoleic Acid": "23-33%", 
+        "Palmitic Acid": "18-24%", 
+        "Stearic Acid": "3-6%", 
     }
+
 }

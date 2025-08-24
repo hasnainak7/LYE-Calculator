@@ -277,3 +277,7 @@ def get_fatty_acids(oil: str):
     if not data:
         raise HTTPException(status_code=404, detail=f"No fatty acid data for {oil}")
     return {"oil": oil, "fatty_acids": data}
+
+
+# --- end of file ---    }
+# }`
