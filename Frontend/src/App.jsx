@@ -317,6 +317,10 @@ import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import "./App.css"; // 🌈 import rainbow styles
 
+// const api = axios.create({
+//   baseURL: "https://lye-calculator.onrender.com",
+// });
+
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE || "https://lye-calculator.onrender.com",
 });
