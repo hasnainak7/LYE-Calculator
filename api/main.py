@@ -74,11 +74,7 @@ app = FastAPI(title="Lye Calculator API", version="1.1.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://<your-frontend>.netlify.app",   # Netlify frontend
-        "https://<your-custom-domain>",          # (if you connect a domain to Netlify)
-        "https://<your-squarespace-site>.squarespace.com",  # your Squarespace
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
