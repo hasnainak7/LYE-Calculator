@@ -1,10 +1,10 @@
-// // #THIS IS GOINF TO BE A CLEAN CODE4
-// import "./App.css";
+// // App.jsx
 // import { useEffect, useMemo, useState } from "react";
 // import axios from "axios";
+// import "./App.css"; // 🌈 import rainbow styles
 
 // const api = axios.create({
-//   baseURL: import.meta.env.VITE_API_BASE || "http://localhost:8000",
+//   baseURL: import.meta.env.VITE_API_BASE || "https://lye-calculator.onrender.com",
 // });
 
 // function numberOrEmpty(v) {
@@ -22,8 +22,8 @@
 //   const [loading, setLoading] = useState(false);
 //   const [err, setErr] = useState("");
 
-//   // NEW: state for fatty acids
-//   const [fattyAcids, setFattyAcids] = useState(null);
+//   // ✅ hold fatty acids per oil
+//   const [fattyAcids, setFattyAcids] = useState({});
 
 //   useEffect(() => {
 //     api
@@ -40,17 +40,22 @@
 //   const addRow = () => setRows([...rows, { oil: "", weight_g: "" }]);
 //   const removeRow = (i) => setRows(rows.filter((_, idx) => idx !== i));
 
-//   // NEW: fetch fatty acids
+//   // ✅ fetch fatty acids for each oil and store by name
 //   const fetchFattyAcids = async (oil) => {
 //     try {
 //       const res = await api.get(`/fatty-acids/${encodeURIComponent(oil)}`);
-//       setFattyAcids(res.data);
+//       setFattyAcids((prev) => ({
+//         ...prev,
+//         [oil]: res.data.fatty_acids,
+//       }));
 //     } catch {
-//       setFattyAcids(null);
+//       setFattyAcids((prev) => ({
+//         ...prev,
+//         [oil]: null,
+//       }));
 //     }
 //   };
 
-//   // UPDATED: trigger fatty acid fetch when oil changes
 //   const updateRow = (i, key, val) => {
 //     const clone = [...rows];
 //     clone[i] = { ...clone[i], [key]: val };
@@ -101,12 +106,14 @@
 //         fontFamily: "system-ui, Arial",
 //       }}
 //     >
-//       <h1 style={{ marginBottom: 8 }}>Lye Calculator</h1>
+//       <h1 className="rainbow-text" style={{ marginBottom: 8 }}>
+//         Lye Calculator
+//       </h1>
 //       <p style={{ marginTop: 0, opacity: 0.7 }}>
 //         Enter your oils (grams). Choose lye type, superfat, and (optionally) water:lye ratio.
 //       </p>
 
-//       <div style={{ border: "1px solid #252525ff", borderRadius: 12, padding: 16 }}>
+//       <div className="rainbow-border" style={{ borderRadius: 12, padding: 16 }}>
 //         <table width="100%" cellPadding="8">
 //           <thead>
 //             <tr>
@@ -121,7 +128,7 @@
 //                 <td>
 //                   <input
 //                     list="oil-list"
-//                     placeholder="e.g., olive oil"
+//                     placeholder="e.g., Olive Oil"
 //                     value={r.oil}
 //                     onChange={(e) => updateRow(i, "oil", e.target.value)}
 //                     style={{ width: "100%" }}
@@ -144,6 +151,7 @@
 //                   <button
 //                     onClick={() => removeRow(i)}
 //                     disabled={rows.length === 1}
+//                     className="rainbow-button"
 //                   >
 //                     Remove
 //                   </button>
@@ -160,7 +168,9 @@
 //         </datalist>
 
 //         <div style={{ marginTop: 12 }}>
-//           <button onClick={addRow}>+ Add oil</button>
+//           <button onClick={addRow} className="rainbow-button">
+//             + Add oil
+//           </button>
 //         </div>
 
 //         <hr style={{ margin: "16px 0" }} />
@@ -209,16 +219,12 @@
 //           </div>
 //           <div>
 //             <label>Total oils (g)</label>
-//             <input
-//               value={totalOil.toFixed(2)}
-//               readOnly
-//               style={{ width: "100%", background: "#f4f4f4" }}
-//             />
+//             <input value={totalOil.toFixed(2)} readOnly />
 //           </div>
 //         </div>
 
 //         <div style={{ marginTop: 16 }}>
-//           <button onClick={calculate} disabled={loading}>
+//           <button onClick={calculate} disabled={loading} className="rainbow-button">
 //             {loading ? "Calculating..." : "Calculate"}
 //           </button>
 //           {err && <div style={{ color: "crimson", marginTop: 8 }}>{err}</div>}
@@ -227,14 +233,16 @@
 
 //       {result && (
 //         <div
+//           className="rainbow-border"
 //           style={{
 //             marginTop: 16,
-//             border: "1px solid #ddd",
 //             borderRadius: 12,
 //             padding: 16,
 //           }}
 //         >
-//           <h2 style={{ marginTop: 0 }}>Results</h2>
+//           <h2 className="rainbow-text" style={{ marginTop: 0 }}>
+//             Results
+//           </h2>
 //           <p style={{ marginTop: 0 }}>
 //             Lye: <strong>{result.total_lye_g} g</strong> ({result.lye_type}) &nbsp; • &nbsp; Water:{" "}
 //             <strong>{result.total_water_g} g</strong> &nbsp; • &nbsp; Water:lye used:{" "}
@@ -264,37 +272,43 @@
 //         </div>
 //       )}
 
-//       {/* NEW: fatty acid table */}
-//       {fattyAcids && (
-//         <div
-//           style={{
-//             marginTop: 16,
-//             border: "1px solid #ddd",
-//             borderRadius: 12,
-//             padding: 16,
-//           }}
-//         >
-//           <h2 style={{ marginTop: 0 }}>
-//             Fatty Acid Composition: {fattyAcids.oil}
-//           </h2>
-//           <table width="100%" cellPadding="8">
-//             <thead>
-//               <tr>
-//                 <th align="left">Fatty Acid</th>
-//                 <th align="left">Percentage</th>
-//               </tr>
-//             </thead>
-//             <tbody>
-//               {Object.entries(fattyAcids.fatty_acids).map(([acid, val]) => (
-//                 <tr key={acid}>
-//                   <td>{acid}</td>
-//                   <td>{val}</td>
-//                 </tr>
-//               ))}
-//             </tbody>
-//           </table>
-//         </div>
-//       )}
+//       {/* ✅ show fatty acids for all selected oils */}
+//       {rows
+//         .filter((r) => r.oil)
+//         .map((r) => {
+//           const acids = fattyAcids[r.oil];
+//           return acids ? (
+//             <div
+//               key={r.oil}
+//               className="rainbow-border"
+//               style={{ marginTop: 16, borderRadius: 12, padding: 16 }}
+//             >
+//               <h2 className="rainbow-text" style={{ marginTop: 0 }}>
+//                 Fatty Acid Composition: {r.oil}
+//               </h2>
+//               <table width="100%" cellPadding="8">
+//                 <thead>
+//                   <tr>
+//                     <th align="left">Fatty Acid</th>
+//                     <th align="left">Percentage</th>
+//                   </tr>
+//                 </thead>
+//                 <tbody>
+//                   {Object.entries(acids).map(([acid, val]) => (
+//                     <tr key={acid}>
+//                       <td>{acid}</td>
+//                       <td>{val}</td>
+//                     </tr>
+//                   ))}
+//                 </tbody>
+//               </table>
+//             </div>
+//           ) : (
+//             <p key={r.oil} style={{ color: "crimson" }}>
+//               No fatty acid data for {r.oil}
+//             </p>
+//           );
+//         })}
 
 //       <p style={{ fontSize: 12, opacity: 0.7, marginTop: 16 }}>
 //         ⚠️ Safety: lye is caustic—use protective gear, label containers, and double-check values for your specific oils.
@@ -304,22 +318,10 @@
 // }
 
 
-
-
-
-
-
-// --- IGNORE ---
-// # --- end of file ---    }
-
 // App.jsx
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import "./App.css"; // 🌈 import rainbow styles
-
-// const api = axios.create({
-//   baseURL: "https://lye-calculator.onrender.com",
-// });
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE || "https://lye-calculator.onrender.com",
@@ -340,7 +342,8 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");
 
-  const [fattyAcids, setFattyAcids] = useState(null);
+  // ✅ hold fatty acids for multiple oils
+  const [fattyAcids, setFattyAcids] = useState({});
 
   useEffect(() => {
     api
@@ -357,23 +360,32 @@ export default function App() {
   const addRow = () => setRows([...rows, { oil: "", weight_g: "" }]);
   const removeRow = (i) => setRows(rows.filter((_, idx) => idx !== i));
 
-  const fetchFattyAcids = async (oil) => {
-    try {
-      const res = await api.get(`/fatty-acids/${encodeURIComponent(oil)}`);
-      setFattyAcids(res.data);
-    } catch {
-      setFattyAcids(null);
-    }
-  };
+  // ✅ automatically fetch fatty acids for all oils in rows
+  useEffect(() => {
+    rows.forEach((r) => {
+      if (r.oil && !(r.oil in fattyAcids)) {
+        api
+          .get(`/fatty-acids/${encodeURIComponent(r.oil)}`)
+          .then((res) => {
+            setFattyAcids((prev) => ({
+              ...prev,
+              [r.oil]: res.data.fatty_acids,
+            }));
+          })
+          .catch(() => {
+            setFattyAcids((prev) => ({
+              ...prev,
+              [r.oil]: null,
+            }));
+          });
+      }
+    });
+  }, [rows, fattyAcids]);
 
   const updateRow = (i, key, val) => {
     const clone = [...rows];
     clone[i] = { ...clone[i], [key]: val };
     setRows(clone);
-
-    if (key === "oil" && val) {
-      fetchFattyAcids(val);
-    }
   };
 
   const calculate = async () => {
@@ -438,7 +450,7 @@ export default function App() {
                 <td>
                   <input
                     list="oil-list"
-                    placeholder="e.g., olive oil"
+                    placeholder="e.g., Olive Oil"
                     value={r.oil}
                     onChange={(e) => updateRow(i, "oil", e.target.value)}
                     style={{ width: "100%" }}
@@ -529,11 +541,7 @@ export default function App() {
           </div>
           <div>
             <label>Total oils (g)</label>
-            <input
-              value={totalOil.toFixed(2)}
-              readOnly
-              
-            />
+            <input value={totalOil.toFixed(2)} readOnly />
           </div>
         </div>
 
@@ -586,35 +594,39 @@ export default function App() {
         </div>
       )}
 
-      {fattyAcids && (
-        <div
-          className="rainbow-border"
-          style={{
-            marginTop: 16,
-            borderRadius: 12,
-            padding: 16,
-          }}
-        >
-          <h2 className="rainbow-text" style={{ marginTop: 0 }}>
-            Fatty Acid Composition: {fattyAcids.oil}
-          </h2>
-          <table width="100%" cellPadding="8">
-            <thead>
-              <tr>
-                <th align="left">Fatty Acid</th>
-                <th align="left">Percentage</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Object.entries(fattyAcids.fatty_acids).map(([acid, val]) => (
-                <tr key={acid}>
-                  <td>{acid}</td>
-                  <td>{val}</td>
+      {/* ✅ show fatty acids for ALL oils selected */}
+      {rows.map((r) =>
+        r.oil && fattyAcids[r.oil] ? (
+          <div
+            key={r.oil}
+            className="rainbow-border"
+            style={{ marginTop: 16, borderRadius: 12, padding: 16 }}
+          >
+            <h2 className="rainbow-text" style={{ marginTop: 0 }}>
+              Fatty Acid Composition: {r.oil}
+            </h2>
+            <table width="100%" cellPadding="8">
+              <thead>
+                <tr>
+                  <th align="left">Fatty Acid</th>
+                  <th align="left">Percentage</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {Object.entries(fattyAcids[r.oil]).map(([acid, val]) => (
+                  <tr key={acid}>
+                    <td>{acid}</td>
+                    <td>{val}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : r.oil ? (
+          <p key={r.oil} style={{ color: "crimson" }}>
+            No fatty acid data for {r.oil}
+          </p>
+        ) : null
       )}
 
       <p style={{ fontSize: 12, opacity: 0.7, marginTop: 16 }}>
