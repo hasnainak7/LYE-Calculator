@@ -532,15 +532,14 @@
   "Laurel Wax": {
     "Palmitic Acid": "20-30%",
     "Stearic Acid": "20-30%",
-    "Oleic Acid": "10-20%",
-    "Others": "trace"
+    "Oleic Acid": "10-20%"
+    
   },
   
-  "MCT Oil, Organic": {
+  "Caprylic Capric Triglyceride MCT Oil, Organic": {
     "Caprylic Acid": "50-70%",
-    "Capric Acid": "30-50%",
-    "Lauric Acid": "trace",
-    "Others": "trace"
+    "Capric Acid": "30-50%"
+    
   },
   "Macadamia Nut Oil Organic": {
     "Oleic Acid": "54-68%",
@@ -1064,7 +1063,56 @@
     "Alpha-Linolenic Acid": "25-35%",
     "Oleic Acid": "10-15%",
     "Palmitic Acid": "3-5%",
-    "Stearic Acid": "1-3%"}
+    "Stearic Acid": "1-3%"},
+
+
+    "Beef Tallow": { 
+        "Oleic Acid": "40%", 
+        "Palmitic Acid": "25%", 
+        "Stearic Acid": "15%", 
+        "Linoleic Acid": "3–5%", 
+        "Linolenic Acid": "0.5-1%"},
+
+
+    "Black Cumin Seed Oil, Organic": { 
+        "Linoleic Acid": "50-60%", 
+        "Oleic Acid": "20-30%", 
+        "Palmitic Acid": "10-15%", 
+        "Stearic Acid": "3-6%", 
+        "Alpha-Linolenic Acid": "0.5-2%"},
+ 
+    "Black currant Seed Oil": { 
+        "Linoleic Acid": "40-50%", 
+        "Alpha-Linolenic Acid": "15-20%", 
+        "Gamma-Linolenic Acid": "15-20%", 
+        "Oleic Acid": "10-15%", 
+        "Palmitic Acid": "5-7%", 
+        "Stearic Acid": "1.5-3%"
+    },
+
+
+    "Borage Oil, Organic": { 
+        "Linoleic Acid": "35-40%", 
+        "Gamma-Linolenic Acid": "20-24%", 
+        "Oleic Acid": "15-20%", 
+        "Palmitic Acid": "7-10%",
+        "Stearic Acid": "2-4%"  },
+
+        "Borage Oil":{
+
+        "Linoleic Acid": "35-40%",
+        "Gamma-Linolenic Acid": "20-24%",
+        "Oleic Acid": "15-20%", 
+        "Palmitic Acid": "7-10%",
+        "Stearic Acid": "2-4%"  
+        }
+
+        
+
+  
+
+
+
 
 
 
