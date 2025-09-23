@@ -1113,9 +1113,21 @@
         "Oleic Acid": "15-20%", 
         "Palmitic Acid": "7-10%",
         "Stearic Acid": "2-4%"  
-        }
+        },
 
-        
+        "Coconut Butter":{
+        "Lauric Acid": "44-52%",
+        "Myristic Acid": "16-21%",  
+        "Palmitic Acid": "7-10%",
+        "Caprylic Acid":  "5–9%",
+        "Capric Acid": "4-8%",
+        "Oleic Acid": "5-8%",
+        "Stearic Acid": "2-4%",
+        "Linoleic Acid": "1-2%"
+
+
+
+        }
 
   
 
