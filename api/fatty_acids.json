@@ -329,7 +329,7 @@
     "Oleic Acid": "30-40%", 
     "Palmitic Acid": "24-29%", 
     "Stearic Acid": "34-36%", 
-    "Linoleic Acid": "~2.5%" 
+    "Linoleic Acid": "2.5%" 
 } ,
  
     "Coconut Oil": { 
@@ -362,9 +362,9 @@
     }, 
  
     "Deer Tallow": { 
-        "Oleic Acid": "~11%", 
-        "Palmitic Acid": "~35.5%", 
-        "Stearic Acid": "~20.9%", 
+        "Oleic Acid": "11%", 
+        "Palmitic Acid": "35.5%", 
+        "Stearic Acid": "20.9%", 
         "Linoleic Acid": "5–10%", 
         "Linolenic Acid": "5-10%" 
     }, 
@@ -375,8 +375,8 @@
         "Oleic Acid": "5–12%", 
         "Palmitic Acid": "4-10%" ,
         "Stearic Acid": "2-4%" ,
-        "Alpha-Linolenic Acid": "~1%"
-    }, 
+        "Alpha-Linolenic Acid": "1%"
+    },
  
     "Flax Seed Oil": { 
         "Linolenic Acid": "35–60%", 
@@ -444,7 +444,7 @@
         "Oleic Acid": "28.91%",
         "Linoleic Acid": "39.49%", 
         "Palmitic Acid": "20.75%", 
-        "Vernolic Acid": "~4.16%"
+        "Vernolic Acid": "4.16%"
     }, 
  
   "High Linoleic Safflower Oil": { 
@@ -615,7 +615,7 @@
     "Eicosenoic Acid": "2.5-4%",
     "Behenic Acid": "8-8.6%",
     "Linolenic Acid": "1-1.5%",
-    "Erucic Acid": "~3%"
+    "Erucic Acid": "3%"
   },
   "Murumuru Butter": {
     "Oleic Acid": "5-10%",
@@ -1046,7 +1046,7 @@
     "Oleic Acid": "5–12%", 
     "Palmitic Acid": "4-10%" ,
     "Stearic Acid": "2-4%" ,
-    "Alpha-Linolenic Acid": "~1%"},
+    "Alpha-Linolenic Acid": "1%"},
 
   "Flax Seed Oil Organic": {
     "Linolenic Acid": "35–60%",
