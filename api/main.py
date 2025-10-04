@@ -179,8 +179,8 @@ from math import isfinite
 
 # --- config/constants ---
 KOH_CONVERSION = 1.403  # multiply NaOH amount by this for KOH
-DEFAULT_WATER_RATIO_NAOH = 2.5
-DEFAULT_WATER_RATIO_KOH = 3.0
+DEFAULT_WATER_RATIO_NAOH = 2
+DEFAULT_WATER_RATIO_KOH = 2
 
 # --- load SAP table ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
