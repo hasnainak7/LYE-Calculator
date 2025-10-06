@@ -179,8 +179,8 @@ from math import isfinite
 
 # --- config/constants ---
 KOH_CONVERSION = 1.403  # multiply NaOH amount by this for KOH
-DEFAULT_WATER_RATIO_NAOH = 2
-DEFAULT_WATER_RATIO_KOH = 2
+DEFAULT_WATER_RATIO_NAOH = 1
+DEFAULT_WATER_RATIO_KOH = 1
 
 # --- load SAP table ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -248,7 +248,7 @@ class LyeRequest(BaseModel):
     oils: List[OilInput] = Field(..., min_length=1)
     superfat_percent: float = Field(5.0, ge=0, le=20, description="Superfat percentage (0–20, default 5)")
     lye_type: Literal["NaOH", "KOH"] = "NaOH"
-    water_ratio: float | None = Field(None, gt=0, description="Water:lye ratio (e.g., 2.5)")
+    water_ratio: float | None = Field(None, gt=0, description="Water:lye ratio (e.g., 2)")
 
 
 class OilContribution(BaseModel):
