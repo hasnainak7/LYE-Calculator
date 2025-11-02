@@ -48,6 +48,16 @@
     "Palmitic Acid": "4–4.5%", 
     "Stearic Acid": "1–1.4%" 
     },
+
+
+    "Avocado Butter": { 
+        "Oleic Acid": "55–70%",
+        "Palmitic Acid": "15–25%",
+        "Linoleic Acid": "10–15%",
+        "Stearic Acid": "0.5–2%" ,
+        "Palmitoleic Acid": "3-7%",
+        "Alpha-Linolenic Acid": "0.5–2%",
+        "Arachidic Acid":" 0.2–0.5%"},
     
     
   "Avocado Oil": { 
