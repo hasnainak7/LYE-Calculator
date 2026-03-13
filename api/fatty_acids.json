@@ -335,13 +335,25 @@
         "Oleic Acid": "6-8%", 
         "Palmitic Acid": "7-8%" 
     }, 
-"Cocoa Butter": { 
-    "Oleic Acid": "30-40%", 
-    "Palmitic Acid": "24-29%", 
-    "Stearic Acid": "34-36%", 
-    "Linoleic Acid": "2.5%" 
-} ,
+
+    "Cocoa Butter": { 
+         "Oleic Acid": "30-40%", 
+         "Palmitic Acid": "24-29%", 
+         "Stearic Acid": "34-36%", 
+         "Linoleic Acid": "2.5%" 
+    } ,
+
+    "Cocoa Butter2": { 
+         "Oleic Acid": "30-40%", 
+         "Palmitic Acid": "24-29%", 
+         "Stearic Acid": "34-36%", 
+         "Linoleic Acid": "2.5%" 
+    } ,
  
+ 
+
+
+
     "Coconut Oil": { 
         "Lauric Acid": "44-52%", 
         "Myristic Acid": "13-19%", 
