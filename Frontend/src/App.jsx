@@ -480,7 +480,6 @@ export default function App() {
             </div>
           ) : (
             <p key={oil} style={{ color: "crimson" }}>
-              No fatty acid data for {oil}
             </p>
           )
         )}
